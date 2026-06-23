@@ -33,14 +33,14 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               <Link 
                 href="/resume-builder" 
-                className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-700 text-zinc-900 dark:text-zinc-100 font-bold rounded-xl text-lg transition-all hover:scale-105 shadow-[0_0_30px_rgba(37,99,235,0.4)] flex items-center justify-center gap-2 group"
+                className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl text-lg flex items-center justify-center gap-2 group transition-all duration-150 shadow-[0_6px_0_rgb(29,78,216)] hover:shadow-[0_8px_0_rgb(29,78,216)] hover:-translate-y-0.5 active:shadow-[0_0px_0_rgb(29,78,216)] active:translate-y-1.5"
               >
                 Create My Resume
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link 
                 href="/tracker" 
-                className="w-full sm:w-auto px-8 py-4 bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-900 dark:text-zinc-100 font-bold rounded-xl text-lg transition-colors flex items-center justify-center"
+                className="w-full sm:w-auto px-8 py-4 bg-zinc-50 dark:bg-zinc-900 border-2 border-zinc-200 dark:border-zinc-800 text-zinc-900 dark:text-zinc-100 font-bold rounded-xl text-lg flex items-center justify-center transition-all duration-150 shadow-[0_6px_0_rgb(228,228,231)] dark:shadow-[0_6px_0_rgb(39,39,42)] hover:shadow-[0_8px_0_rgb(228,228,231)] dark:hover:shadow-[0_8px_0_rgb(39,39,42)] hover:-translate-y-0.5 active:shadow-[0_0px_0_rgb(228,228,231)] dark:active:shadow-[0_0px_0_rgb(39,39,42)] active:translate-y-1.5"
               >
                 Try Job Tracker
               </Link>

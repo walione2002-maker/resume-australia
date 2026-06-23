@@ -27,12 +27,5 @@ body {
 }
 
 html {
-  font-size: 125%; /* 125% scale for everything to match user request */
   scroll-behavior: smooth;
-}
-
-@media print {
-  html {
-    font-size: 100% !important; /* Reset to 16px equivalent for PDF exports */
-  }
 }
